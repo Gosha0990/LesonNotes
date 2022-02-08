@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Neotes.Application.Common.Mappings
 {
-    public class IMapWidth <T>
+    public class IMapWith <T>
     {
         void Mapping(Profile profile) =>
                 profile.CreateMap(typeof(T), GetType());
